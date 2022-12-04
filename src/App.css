@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*.projectDiv, .taskDiv, .invoiceDiv {
+border:black solid 1px;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+}
+
+.projectDiv {
+padding: 10px;
+}
+
+h4 {
+  font-family:Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+.innerDiv {
+  width: 50%
+}
+
+.innerDivI {
+  width:25%
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  border: rgb(159, 159, 159) solid 0.5px;
+}
+
+
+.try {
+  border: black 1px solid;
+}
+
+.h3Div {
+  display: flex;
+  flex-direction: row;
+}
+
+*/
+
+.projectsLi, .tasksLi, .invoicesLi {
+  display: flex;
+  flex-direction: column;
+  border: rgb(6, 6, 69) solid 0.5px;
+  border-radius: 15px;
+  font-weight: lighter;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  font-size: 20px;
+  box-shadow: 4px 3px 8px 1px #020007;
+  -webkit-box-shadow: 4px 3px 8px 1px #676668;
+  width: 80px;
+  height: 80px;
+  margin:10px;
+  background-color: #5042a0;
+  color:white;
+}
+
+
+.projectsLi:hover, .tasksLi:hover, .invoicesLi:hover {
+  background-color: rgb(59, 59, 83);
+}
+
+.feedUl {
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+}
+
+.timelogUl > li {
+  background-color: antiquewhite;
+  margin: 8px;
+  
+}
+
+ h3{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+.amountDiv {
+  border: rgb(6, 6, 69) solid 0.5px;
+  border-radius: 15px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+  color:#fff;
+  background-color: rgb(56, 127, 209);
+}
+
+.taskListDiv {
+ display:flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.top > h3 {
+  font-size: 40px;
+}
+
+.taskTd {
+  border:#676668 0.5px solid;
+  padding:10px;
+}
+
+.invoiceUl {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.iRest {
+  width:25%;
+  text-align: end;
+  border:#676668 0.5px solid;
+  padding:10px;
+}
+
+.iCustomer {
+  width:25%;
+  text-align: start;
+  border:#676668 0.5px solid;
+  padding:10px;
+}
+
+.h3Div {
+  display:flex;
+  flex-direction: row;
+}
+
+.h3Div > h3 {
+  width:25%;
+  text-align:end ;
+}
+
+.goToInvoiceDiv {
+  border: solid black 0.5px;
+  padding:20px;
+  font-size: 23px;
+  color:darkblue;
+  margin:40px;
+  border-radius: 10px;
+  display:flex;
+  justify-content: center;
+}
+ a {
+text-decoration: none;
+}
+
+a:hover {
+  color:#020007;
+}
+
+.newInvoicesOutDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.newI {
+display: flex;
+justify-content: center;
+padding-top: 50px;
+}
+
