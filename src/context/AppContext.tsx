@@ -40,7 +40,6 @@ interface Timelog {
   taskName: string;
 }
 
-
 //CONTEXTINTERFACE
 interface AppContextInterface {
   invoices: Invoice[];
@@ -158,8 +157,8 @@ export const AppProvider = ({ children }: { children?: React.ReactNode }) => {
         timelogs,
         addTimelog,
         deleteInvoice,
-        deleteTimelog, 
-        deleteTask
+        deleteTimelog,
+        deleteTask,
       }}
     >
       {children}

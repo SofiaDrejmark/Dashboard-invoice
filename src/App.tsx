@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import { AppProvider } from "./context/AppContext";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

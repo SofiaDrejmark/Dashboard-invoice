@@ -1,6 +1,4 @@
-import React from "react";
 import { useAppContext } from "../context/AppContext";
-
 
 function TaskList() {
   const { tasks, projects, deleteTask } = useAppContext();
@@ -10,7 +8,7 @@ function TaskList() {
       <div className="top">
         <h3>Task List</h3>
       </div>
-    
+
       <table>
         {tasks.map((task) => {
           const project: any = projects.find(
@@ -18,10 +16,12 @@ function TaskList() {
           );
           return (
             <tr>
-               <td className="taskTd">
-              Task Name: {task.task} <br />
-                From project: {project.project}<br />
-                <button onClick={() => deleteTask(task.id)}>Delete</button> </td>
+              <td className="taskTd">
+                Task Name: {task.task} <br />
+                From project: {project.project}
+                <br />
+                <button onClick={() => deleteTask(task.id)}>Delete</button>{" "}
+              </td>
             </tr>
           );
         })}

@@ -1,11 +1,9 @@
-import React from "react";
 import { useAppContext } from "../context/AppContext";
 
-/*- Fakturor: Kundnamn, status, förfallodatum, summa */
 function InvoiceList() {
   const { invoices, deleteInvoice } = useAppContext();
   return (
-    <div>
+    <div className="invoiceDiv">
       <h2>Invoices</h2>
       <div>
         <table>

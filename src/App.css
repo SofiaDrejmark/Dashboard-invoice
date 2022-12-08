@@ -184,3 +184,22 @@ justify-content: center;
 padding-top: 50px;
 }
 
+.table{
+  border: black solid 0.5px;
+}
+
+.bodyDiv{
+  flex-direction: column;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ font-size: 20px;
+}
+
+.invoiceDiv{
+  flex-direction: column;
+  display:flex;
+  justify-content: center;
+ align-items: center;
+ font-size: 20px;
+}

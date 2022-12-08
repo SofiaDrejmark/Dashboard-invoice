@@ -58,57 +58,84 @@
     {
       "start": "Mon Nov 07 2022 18:30:16 GMT+0100 (centraleuropeisk normaltid)",
       "stop": "Mon Nov 07 2022 18:30:17 GMT+0100 (centraleuropeisk normaltid)",
-      "time": 20134,
-      "taskId": 4,
+      "time": 60134,
+      "taskId": 6,
       "id": 2
     },
     {
       "start": "Mon Jan 07 2021 18:30:16 GMT+0100 (centraleuropeisk normaltid)",
       "stop": "Sun Jan 07 2021 18:30:17 GMT+0100 (centraleuropeisk normaltid)",
-      "time": 1200,
+      "time": 81200,
       "taskId": 5,
       "id": 3
     },
     {
       "start": "Mon Dec 05 2022 00:08:41 GMT+0100 (centraleuropeisk normaltid)",
       "stop": "Mon Dec 05 2022 00:08:43 GMT+0100 (centraleuropeisk normaltid)",
-      "time": 2233,
+      "time": 90233,
       "taskId": 7,
       "id": 4
     },
     {
-      "start": "Mon Dec 05 2022 00:17:41 GMT+0100 (centraleuropeisk normaltid)",
-      "stop": "Mon Dec 05 2022 00:17:49 GMT+0100 (centraleuropeisk normaltid)",
-      "time": 7,
-      "taskId": 3,
-      "id": 5
+      "start": "Mon Dec 05 2022 00:19:38 GMT+0100 (centraleuropeisk normaltid)",
+      "stop": "Mon Dec 05 2022 00:19:49 GMT+0100 (centraleuropeisk normaltid)",
+      "time": 11000,
+      "taskId": 4,
+      "id": 6
     },
     {
       "start": "Mon Dec 05 2022 00:19:38 GMT+0100 (centraleuropeisk normaltid)",
       "stop": "Mon Dec 05 2022 00:19:49 GMT+0100 (centraleuropeisk normaltid)",
-      "time": 11,
+      "time": 115400,
+      "taskId": 8,
+      "id": 7
+    },
+    {
+      "start": "Wed Dec 07 2022 20:57:28 GMT+0100 (centraleuropeisk normaltid)",
+      "stop": "Wed Dec 07 2022 20:57:44 GMT+0100 (centraleuropeisk normaltid)",
+      "time": 71600,
       "taskId": 3,
-      "id": 6
+      "id": 8
     }
   ],
   "invoices": [
     {
       "status": "unpaid",
-      "customer": "Sofia",
+      "customer": "sofia",
       "daysLeft": 30,
-      "price": 111,
+      "price": 100,
       "totalprice": 0,
       "timelogId": 2,
       "id": 1
     },
     {
       "status": "unpaid",
-      "customer": "aaa",
+      "customer": "hej",
       "daysLeft": 30,
-      "price": 11,
-      "totalprice": 0,
+      "price": 200,
+      "totalprice": 1118,
       "timelogId": 2,
-      "id": 2
+      "id": 3
+    },
+    {
+      "taskId": "5",
+      "status": "unpaid",
+      "customer": "Anna",
+      "daysLeft": 30,
+      "price": 200,
+      "totalprice": 3340,
+      "timelogId": 2,
+      "id": 8
+    },
+    {
+      "taskId": "6",
+      "status": "unpaid",
+      "customer": "Fia",
+      "daysLeft": 30,
+      "price": 350,
+      "totalprice": 5846,
+      "timelogId": 2,
+      "id": 9
     }
   ]
 }
